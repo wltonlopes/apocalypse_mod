@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/assault_rifle/relax_2.xml">
+      <mesh>skeletal/new/m_pants_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/rifle_1.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+    <group>
+    <variant frequency="1" name="tunic_01_01">
+      <textures>
+	    <texture file="skeletal/celt/tunic_01_01.png" name="baseTex"/>
+	  </textures>
+    </variant>
+    <variant frequency="1" name="tunic_01_02">
+      <textures>
+	    <texture file="skeletal/celt/tunic_01_02.png" name="baseTex"/>
+	  </textures>
+    </variant>
+    <variant frequency="1" name="tunic_01_03">
+      <textures>
+	    <texture file="skeletal/celt/tunic_01_03.png" name="baseTex"/>
+	  </textures>
+    </variant>
+    <variant frequency="1" name="tunic_01_04">
+      <textures>
+	    <texture file="skeletal/celt/tunic_01_04.png" name="baseTex"/>
+	  </textures>
+    </variant>
+    <variant frequency="2" name="tunic_01_05">
+      <textures>
+	    <texture file="skeletal/celt/tunic_01_05.png" name="baseTex"/>
+	  </textures>
+    </variant>
+    <variant frequency="1" name="tunic_02_01">
+      <textures>
+	    <texture file="skeletal/celt/tunic_02_01.png" name="baseTex"/>
+	  </textures>
+    </variant>
+    <variant frequency="1" name="tunic_02_02">
+      <textures>
+	    <texture file="skeletal/celt/tunic_02_02.png" name="baseTex"/>
+	  </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/assault_rifle/shoot_standing_1.xml" name="Attack_Ranged"/>
+    <variant file="biped/assault_rifle/ready_2.xml" name="ready"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

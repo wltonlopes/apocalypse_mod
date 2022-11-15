@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>surv</Civ>
+    <GenericName>Survivors</GenericName>
+    <History>Last survivors of old humakind</History>
+    <Icon>emblems/emblem_surv.png</Icon>
+  </Identity>
+</Entity>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/assault_rifle/relax_2.xml">
+      <mesh>skeletal/new/f_dress.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_female_celt.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/rifle_1.xml" attachpoint="weapon_R"/>
+
+      </props>
+    </variant>
+  </group>
+    <group>
+    <variant frequency="1" name="dress_female_01_01">
+      <textures>
+        <texture file="skeletal/celt/dress_female_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dress_female_01_02">
+      <textures>
+        <texture file="skeletal/celt/dress_female_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dress_female_01_03">
+      <textures>
+        <texture file="skeletal/celt/dress_female_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dress_female_02_01">
+      <textures>
+        <texture file="skeletal/celt/dress_female_02_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dress_female_02_02">
+      <textures>
+        <texture file="skeletal/celt/dress_female_02_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="dress_female_02_03">
+      <textures>
+        <texture file="skeletal/celt/dress_female_02_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/assault_rifle/shoot_standing_1.xml" name="Attack_Ranged"/>
+    <variant file="biped/assault_rifle/ready_2.xml" name="Idle"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

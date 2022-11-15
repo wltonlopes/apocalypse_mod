@@ -1,0 +1,8 @@
+{
+	"name": "surv-mod",
+	"version": "0.0.1",
+	"label": "Syracusans",
+	"description": "adds civ surv to 0a.d.",
+	"dependencies": ["0ad=0.0.26"],
+	"type": ["All"]
+}

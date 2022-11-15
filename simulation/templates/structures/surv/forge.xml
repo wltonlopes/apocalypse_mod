@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_forge">
+  <Identity>
+    <Civ>surv</Civ>
+    <SpecificName>Chalkeōn</SpecificName>
+  </Identity>
+  <GarrisonHolder>
+    <Max>1</Max>
+    <List datatype="tokens">Infantry Healer Inventor</List>
+  </GarrisonHolder>
+  <VisualActor>
+    <Actor>structures/syracusans/blacksmith.xml</Actor>
+  </VisualActor>
+</Entity>
