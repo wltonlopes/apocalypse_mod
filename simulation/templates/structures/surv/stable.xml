@@ -10,11 +10,10 @@
   <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}/cavalry_spearman_ital_b
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/spartans/stable.xml</Actor>
+    <Actor>structures/survivors/garagem.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

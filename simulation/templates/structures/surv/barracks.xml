@@ -20,7 +20,7 @@
     </Technologies>
   </ProductionQueue> -->
   <VisualActor>
-    <Actor>structures/survivors/barracks.xml</Actor>
+    <Actor>structures/survivors/house_r.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

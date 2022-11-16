@@ -20,6 +20,35 @@
       <MaxRange>2</MaxRange>
     </Slaughter>
   </Attack>
+  <Builder>
+    <Rate>1.25</Rate>
+    <Entities datatype="tokens">
+      structures/{civ}/wallset_short
+      -structures/{civ}/house
+      -structures/{civ}/field
+      -structures/{civ}/storehouse
+      -structures/{civ}/farmstead
+      -structures/{civ}/corral
+      -structures/{civ}/rotarymill
+      -structures/{civ}/dock
+      -structures/{civ}/market
+      -structures/{civ}/barracks
+      -structures/{civ}/range
+      -structures/{civ}/stable
+      -structures/{civ}/kennel
+      -structures/{civ}/forge
+      -structures/{civ}/defense_tower
+      -structures/wallset_palisade
+      -structures/{civ}/wallset_palisade
+      -structures/{civ}/wallset_siege
+      -structures/{civ}/wallset_stone
+      -structures/{civ}/library
+      -structures/{civ}/arsenal
+      -structures/{civ}/army_camp
+      -structures/{civ}/fortress
+      -structures/{native}/wonder
+    </Entities>
+  </Builder>
   <Cost>
     <BuildTime>10</BuildTime>
     <Resources>

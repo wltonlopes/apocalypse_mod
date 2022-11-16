@@ -13,16 +13,19 @@
 		}
 	],
 	"WallSets": [
-		"structures/wallset_palisade",
-		"structures/surv/wallset_stone"
+		"structures/wallset_palisade"
 	],
 	"StartEntities": [
 		{
 			"Template": "structures/surv/civil_centre"
 		},
 		{
-			"Template": "units/surv/infantry_rifleman",
+			"Template": "units/surv/support_citizen",
 			"Count": 4
+		},
+		{
+			"Template": "units/surv/infantry_rifleman",
+			"Count": 2	
 		}
 	],
 	"AINames": [
@@ -30,7 +33,7 @@
 	],
 	"SkirmishReplacements": {
 		"skirmish/units/default_infantry_ranged_b": "units/surv/infantry_rifleman",
-		"skirmish/units/default_infantry_spearman_b": "units/surv/support_citizen",
+		"skirmish/units/default_support_female_citizen": "units/surv/support_citizen",
 		"skirmish/structures/default_house_10": "structures/{civ}/house"
 	},
 	"SelectableInGameSetup": true
