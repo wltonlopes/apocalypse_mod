@@ -10,6 +10,7 @@
   <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
+    units/{civ}/support_wagon
     </Entities>
   </Trainer>
   <VisualActor>

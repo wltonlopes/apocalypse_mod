@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_infantry_archer">
+<Entity parent="template_unit_rifleman">
   <Attack>
     <Ranged>
       <AttackName>Rifler</AttackName>
@@ -36,8 +36,7 @@
   <Identity>
     <Civ>surv</Civ>
     <GenericName>Space troops</GenericName>
-    <SpecificName>Space Troops</SpecificName>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <SelectionGroupName>units/{civ}/support_citizen</SelectionGroupName>
     <Icon>units/athen/support_citizen.png</Icon>
   </Identity>
   <Sound>
@@ -45,7 +44,6 @@
     <attack_ranged>attack/weapon/rifle_attack.xml</attack_ranged>
     </SoundGroups>
   </Sound>
-  <Promotion disable=""/>
   <UnitAI>
     <DefaultStance>aggressive</DefaultStance>
     <FleeDistance>12.0</FleeDistance>

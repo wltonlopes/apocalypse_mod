@@ -1,65 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_infantry_archer">
+<Entity parent="template_unit_champion_infantry_axeman">
   <Attack>
-    <Ranged>
-      <AttackName>Rifler</AttackName>
+    <Melee>
+      <AttackName>axe</AttackName>
       <Damage>
-        <Pierce>10.0</Pierce>
+	    <Hack>0.0</Hack>
+        <Pierce>0.0</Pierce>
+        <Crush>12.0</Crush>
       </Damage>
-      <MaxRange>40</MaxRange>
-      <PrepareTime>700</PrepareTime>
-      <RepeatTime>800</RepeatTime>
-      <Projectile>
-        <Speed>60</Speed>
-        <Spread>2.5</Spread>
-        <Gravity>10</Gravity>
-        <FriendlyFire>false</FriendlyFire>
-        <LaunchPoint y="3"/>
-      </Projectile>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
-    </Ranged>
+	  <Bonuses>
+		<BonusStructures>
+		  <Classes>Structure</Classes>
+		  <Multiplier>2.0</Multiplier>
+		</BonusStructures>
+		<BonusPrimary>
+		  <Classes>Infantry Spear</Classes>
+		  <Multiplier>1.25</Multiplier>
+		</BonusPrimary>
+		<BonusSecondary>
+		  <Classes>Elephant</Classes>
+		  <Multiplier>1.25</Multiplier>
+		</BonusSecondary>
+	  </Bonuses>
+    </Melee>
   </Attack>
-    <Capturable>
-    <CapturePoints>25</CapturePoints>
-    <RegenRate>0</RegenRate>
-    <GarrisonRegenRate>0</GarrisonRegenRate>
-  </Capturable>
-  <Cost>
-    <BuildTime>5</BuildTime>
-    <Resources>
-      <food>40</food>
-      <wood>30</wood>
-      <stone>0</stone>
-      <metal>10</metal>
-    </Resources>
-  </Cost>
   <Identity>
     <Civ>surv</Civ>
-    <GenericName>Space troops</GenericName>
-    <SpecificName>Space Troops</SpecificName>
-    <RequiredTechnology>phase_village</RequiredTechnology>
-    <Icon>units/athen/support_citizen.png</Icon>
+    <SpecificName>Kshatriya Chosen Warrior</SpecificName>
+	<SelectionGroupName>units/surv/champion_infantry</SelectionGroupName>
+    <VisibleClasses datatype="tokens">-Axe Mace Guerilla</VisibleClasses>
+    <Icon>units/surv/champion_maceman.png</Icon>
+	<Tooltip>Counters: 2x vs. Structures, 1.25x vs. Spear Infantry and Elephants.
+Countered by: Archer Infantry and Archer Cavalry.</Tooltip>
   </Identity>
-  <Sound>
-    <SoundGroups>
-    <attack_ranged>attack/weapon/rifle_attack.xml</attack_ranged>
-    </SoundGroups>
-  </Sound>
-  <Promotion disable=""/>
-  <UnitAI>
-    <DefaultStance>aggressive</DefaultStance>
-    <FleeDistance>12.0</FleeDistance>
-    <FormationController>false</FormationController>
-    <CanGuard>true</CanGuard>
-    <CanPatrol>true</CanPatrol>
-    <PatrolWaitTime>1</PatrolWaitTime>
-    <CheeringTime>2800</CheeringTime>
-  </UnitAI>
-   <UnitMotion>
-    <WalkSpeed>12.0</WalkSpeed>
-    <RunMultiplier>1.67</RunMultiplier>
-  </UnitMotion>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>6</Hack>
+        <Pierce>5</Pierce>
+        <Crush>1</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <VisualActor>
-    <Actor>units/survivors/human_{phenotype}.xml</Actor>
+    <Actor>units/survivors/human_{phenotype}_axeman.xml</Actor>
   </VisualActor>
 </Entity>

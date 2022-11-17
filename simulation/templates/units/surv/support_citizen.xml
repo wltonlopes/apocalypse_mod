@@ -2,12 +2,21 @@
 <Entity parent="template_unit_support_citizen">
   <Identity>
     <Civ>surv</Civ>
-	<Lang>latin</Lang>
-    <SpecificName>Roman Citizen</SpecificName>
+    <SpecificName>Citizen</SpecificName>
 	<Classes datatype="tokens">CivisRomanum</Classes>
     <Icon>units/athen/support_citizen.png</Icon>
     <SelectionGroupName>units/{civ}/support_citizen</SelectionGroupName>
   </Identity>
+  <Upgrade>
+    <Axeman>
+      <Entity>units/surv/infantry_axeman</Entity>
+      <Tooltip>Switch weapon from longbow (ranged) to sword (melee).</Tooltip>
+      <Cost>
+        <metal>5</metal>
+      </Cost>
+      <Time>5</Time>
+    </Axeman>
+  </Upgrade>
   <VisualActor>
     <Actor>units/survivors/citizen_{phenotype}.xml</Actor>
   </VisualActor>
