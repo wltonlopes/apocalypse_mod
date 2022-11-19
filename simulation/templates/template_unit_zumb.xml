@@ -2,9 +2,7 @@
 <Entity parent="template_unit_fauna_hunt">
   <Attack>
     <Melee>
-    <Capture>
-      <RestrictedClasses datatype="tokens">Field Organic Structure Palisade Wall</RestrictedClasses>
-    </Capture>
+    <Capture disable=""/>
       <Damage>
         <Hack>5</Hack>
         <Pierce>5</Pierce>

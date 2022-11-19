@@ -35,8 +35,9 @@
   </Cost>
   <Identity>
     <Civ>surv</Civ>
-    <GenericName>Space troops</GenericName>
-    <SelectionGroupName>units/{civ}/support_citizen</SelectionGroupName>
+    <GenericName>Surv Rifler</GenericName>
+    <SpecificName>Surv Rifler</SpecificName>
+    <SelectionGroupName>units/surv/rifler</SelectionGroupName>
     <Icon>units/athen/support_citizen.png</Icon>
   </Identity>
   <Sound>

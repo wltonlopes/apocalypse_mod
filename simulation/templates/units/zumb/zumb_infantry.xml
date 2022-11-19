@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_axeman">
+<Entity parent="template_unit_champion_infantry_axeman">
+  <Attack>
+    <Capture disable=""/>
+  </Attack>
   <Identity>
     <Civ>gaia</Civ>
 	<SelectionGroupName>units/zumb</SelectionGroupName>
@@ -9,6 +12,15 @@
     <History></History>
   </Identity>
   <Promotion disable=""/>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>1</Hack>
+        <Pierce>1</Pierce>
+        <Crush>2</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
   <VisualActor>
     <Actor>units/zumb/zumb_b.xml</Actor>
   </VisualActor>

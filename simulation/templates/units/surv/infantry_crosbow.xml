@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_infantry_archer">
+<Entity parent="template_unit_infantry_ranged_crossbow">
   <Attack>
     <Ranged>
       <AttackName>Rifler</AttackName>
@@ -35,8 +35,9 @@
   </Cost>
   <Identity>
     <Civ>surv</Civ>
-    <GenericName>Space troops</GenericName>
-    <SpecificName>Space Troops</SpecificName>
+    <GenericName>Surv Crosbow</GenericName>
+    <SpecificName>Surv Crosbow</SpecificName>
+    <SelectionGroupName>units/surv/crossbow</SelectionGroupName>
     <RequiredTechnology>phase_village</RequiredTechnology>
     <Icon>units/athen/support_citizen.png</Icon>
   </Identity>
@@ -60,6 +61,6 @@
     <RunMultiplier>1.67</RunMultiplier>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/survivors/human_{phenotype}.xml</Actor>
+    <Actor>units/survivors/crosbow_human_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>

@@ -10,12 +10,20 @@
   <Upgrade>
     <Axeman>
       <Entity>units/surv/infantry_axeman</Entity>
-      <Tooltip>Switch weapon from longbow (ranged) to sword (melee).</Tooltip>
+      <Tooltip>Switch weapon melee).</Tooltip>
       <Cost>
         <metal>5</metal>
       </Cost>
       <Time>5</Time>
     </Axeman>
+    <Crosbow>
+      <Entity>units/surv/infantry_crosbow</Entity>
+      <Tooltip>Switch weapon from longbow (ranged) to sword (melee).</Tooltip>
+      <Cost>
+        <metal>5</metal>
+      </Cost>
+      <Time>5</Time>
+    </Crosbow>
   </Upgrade>
   <VisualActor>
     <Actor>units/survivors/citizen_{phenotype}.xml</Actor>

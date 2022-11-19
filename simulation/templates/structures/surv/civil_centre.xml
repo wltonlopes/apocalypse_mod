@@ -8,6 +8,7 @@
       structures/{civ}/farmstead
       structures/{civ}/storehouse
       structures/{civ}/stable
+      structures/{civ}/stable
     </Entities>
   </Builder>
   <Health>

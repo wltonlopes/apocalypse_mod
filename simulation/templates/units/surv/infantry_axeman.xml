@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_infantry_axeman">
+<Entity parent="template_unit_infantry_melee_axeman">
   <Attack>
     <Melee>
       <AttackName>axe</AttackName>
@@ -8,30 +8,15 @@
         <Pierce>0.0</Pierce>
         <Crush>12.0</Crush>
       </Damage>
-	  <Bonuses>
-		<BonusStructures>
-		  <Classes>Structure</Classes>
-		  <Multiplier>2.0</Multiplier>
-		</BonusStructures>
-		<BonusPrimary>
-		  <Classes>Infantry Spear</Classes>
-		  <Multiplier>1.25</Multiplier>
-		</BonusPrimary>
-		<BonusSecondary>
-		  <Classes>Elephant</Classes>
-		  <Multiplier>1.25</Multiplier>
-		</BonusSecondary>
-	  </Bonuses>
     </Melee>
   </Attack>
   <Identity>
     <Civ>surv</Civ>
-    <SpecificName>Kshatriya Chosen Warrior</SpecificName>
-	<SelectionGroupName>units/surv/champion_infantry</SelectionGroupName>
+    <SpecificName>Surv Axe</SpecificName>
+    <SpecificName>Surv Axe</SpecificName>
+    <SelectionGroupName>units/surv/axe</SelectionGroupName>
     <VisibleClasses datatype="tokens">-Axe Mace Guerilla</VisibleClasses>
     <Icon>units/surv/champion_maceman.png</Icon>
-	<Tooltip>Counters: 2x vs. Structures, 1.25x vs. Spear Infantry and Elephants.
-Countered by: Archer Infantry and Archer Cavalry.</Tooltip>
   </Identity>
   <Resistance>
     <Entity>
@@ -43,6 +28,6 @@ Countered by: Archer Infantry and Archer Cavalry.</Tooltip>
     </Entity>
   </Resistance>
   <VisualActor>
-    <Actor>units/survivors/human_{phenotype}_axeman.xml</Actor>
+    <Actor>units/survivors/axe_human_{phenotype}.xml</Actor>
   </VisualActor>
 </Entity>
