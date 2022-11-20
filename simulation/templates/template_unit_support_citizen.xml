@@ -23,6 +23,8 @@
   <Builder>
     <Rate>1.25</Rate>
     <Entities datatype="tokens">
+      -structures/{civ}/outpost
+      -structures/{civ}/sentry_tower
       structures/{civ}/wallset_short
       -structures/{civ}/house
       -structures/{civ}/field

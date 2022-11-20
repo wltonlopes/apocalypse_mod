@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="house">
-      <mesh>structural/survivors/house_basic_2.dae</mesh>
+      <mesh>structural/survivors/library.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
       </props>
@@ -27,7 +27,10 @@
     <variant frequency="1" name="alive"/>
     <variant file="structures/destruction_medium.xml">
       <props>
-   
+        <prop actor="props/structures/spartans/barracks_struct_b.xml" attachpoint="root"/>
+        <prop actor="props/structures/spartans/barracks_props_a.xml" attachpoint="root"/>
+        <prop actor="props/structures/spartans/barracks_props_shields.xml" attachpoint="root"/>
+        <prop actor="props/structures/spartans/barracks_tile_c.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

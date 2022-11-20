@@ -14,11 +14,12 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
- <!--  <ProductionQueue>
-    <Technologies datatype="tokens">
-      upgrade_rank_advanced_mercenary
-    </Technologies>
-  </ProductionQueue> -->
+
+  <Trainer>
+    <Entities datatype="tokens">
+      units/surv/hero_infantry_human_rifleman_elite_female
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/survivors/house_r.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

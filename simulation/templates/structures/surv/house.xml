@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic_house_big">
+<Entity parent="template_structure_civic_house">
+  <Cost>
+    <BuildTime>10</BuildTime>
+    <Resources>
+      <food>10</food>
+      <wood>10</wood>
+    </Resources>
+  </Cost>
   <Identity>
     <Civ>surv</Civ>
     <SpecificName>Oikos</SpecificName>
   </Identity>
+    <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>2</Hack>
+        <Pierce>2</Pierce>
+        <Crush>2</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+    <Upgrade>
+    <Axeman>
+      <Entity>structures/surv/house_n2</Entity>
+      <Tooltip>Upgrade you house</Tooltip>
+      <Cost>
+        <metal>5</metal>
+      </Cost>
+      <Time>5</Time>
+    </Axeman>
+  </Upgrade>
   <VisualActor>
-    <Actor>structures/survivors/house_basic_1.xml</Actor>
+    <Actor>structures/survivors/tent.xml</Actor>
   </VisualActor>
 </Entity>

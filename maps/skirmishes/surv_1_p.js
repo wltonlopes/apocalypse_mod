@@ -116,8 +116,8 @@ cmpTrigger.DoAfterDelay(50000, "Reforces", {});
 // cmpTrigger.DoAfterDelay(35000, "AlliedSupport", {});
 // cmpTrigger.DoAfterDelay(80000, "AttackI", {});
 cmpTrigger.DoAfterDelay(110000	, "Reforces", {});
-cmpTrigger.DoAfterDelay(170000, "AttackI", {});
+cmpTrigger.DoAfterDelay(290000, "AttackI", {});
+cmpTrigger.DoAfterDelay(390000, "AttackI", {});
 // cmpTrigger.DoAfterDelay(180000, "AttackI", {});
-cmpTrigger.DoAfterDelay(240000, "IntroductionMessage", {});
-
+// cmpTrigger.DoAfterDelay(290000, "IntroductionMessage", {});
 // cmpTrigger.DoAfterDelay(200000, "AttackI", {});

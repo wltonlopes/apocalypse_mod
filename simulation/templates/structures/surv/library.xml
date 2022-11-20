@@ -6,14 +6,14 @@
   </Footprint>
   <Identity>
     <Civ>surv</Civ>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_village</RequiredTechnology>
     <SpecificName>Bibliothēkē</SpecificName>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="24.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/seleucids/library.xml</Actor>
+    <Actor>structures/survivors/library.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

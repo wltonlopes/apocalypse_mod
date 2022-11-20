@@ -2,10 +2,13 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="house">
-      <mesh>structural/survivors/house_basic_2.dae</mesh>
+    <variant frequency="1" name="forge">
+      <mesh>structural/survivors/forge.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="particle/sparks_blacksmith.xml" attachpoint="smoke"/>
+        <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
+        <prop actor="particle/flame.xml" attachpoint="fire"/>
       </props>
       <textures>
         <texture file="structural/surv_struct.png" name="baseTex"/>
@@ -26,9 +29,6 @@
   <group>
     <variant frequency="1" name="alive"/>
     <variant file="structures/destruction_medium.xml">
-      <props>
-   
-      </props>
     </variant>
   </group>
   <material>basic_trans.xml</material>

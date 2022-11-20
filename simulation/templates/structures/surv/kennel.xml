@@ -5,6 +5,6 @@
     <SpecificName>Cunattegia</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/britons/kennel.xml</Actor>
+    <Actor>structures/survivors/canil.xml</Actor>
   </VisualActor>
 </Entity>

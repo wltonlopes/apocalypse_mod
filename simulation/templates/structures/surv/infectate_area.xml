@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_special">
+
+  <Auras datatype="tokens">
+    infecte_area
+  </Auras>
+  
+    <Health disable=""/>
+  <Identity>
+    <Civ>gaia</Civ>
+    <SpecificName>Infectate area</SpecificName>
+    <SpecificName>Needs Specific Name</SpecificName>
+    <VisibleClasses datatype="tokens">MercenaryCamp</VisibleClasses>
+    <Tooltip>Infec.</Tooltip>
+    <Classes datatype="tokens">SpecialBuilding</Classes>
+    <Icon>structures/mercenary_camp.png</Icon>
+    <Undeletable>true</Undeletable>
+  </Identity>
+    <Obstruction>
+    <Static width="6.0" depth="6.0"/>
+    <BlockMovement>false</BlockMovement>
+    <BlockPathfinding>false</BlockPathfinding>
+  </Obstruction>
+  <Resistance replace=""/>
+  <Selectable>
+    <Overlay>
+      <Outline>
+        <LineTexture>outline_border_02.png</LineTexture>
+        <LineTextureMask>outline_border_02_mask.png</LineTextureMask>
+        <LineThickness>0.6</LineThickness>
+      </Outline>
+    </Overlay>
+  </Selectable>
+  <TerritoryDecay disable=""/>
+  <TerritoryInfluence disable=""/>
+  <VisualActor>
+    <Actor>particle/dust_storm_red.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -26,12 +26,6 @@
   <group>
     <variant frequency="1" name="alive"/>
     <variant file="structures/destruction_medium.xml">
-      <props>
-        <prop actor="props/structures/spartans/barracks_struct_b.xml" attachpoint="root"/>
-        <prop actor="props/structures/spartans/barracks_props_a.xml" attachpoint="root"/>
-        <prop actor="props/structures/spartans/barracks_props_shields.xml" attachpoint="root"/>
-        <prop actor="props/structures/spartans/barracks_tile_c.xml" attachpoint="root"/>
-      </props>
     </variant>
   </group>
   <material>basic_trans.xml</material>

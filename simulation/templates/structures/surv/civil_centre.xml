@@ -8,7 +8,11 @@
       structures/{civ}/farmstead
       structures/{civ}/storehouse
       structures/{civ}/stable
-      structures/{civ}/stable
+      structures/{civ}/outpost
+      structures/{civ}/sentry_tower
+      structures/{civ}/gaia_roadset
+      structures/{civ}/temple     
+      structures/{civ}/library 
     </Entities>
   </Builder>
   <Health>
@@ -20,6 +24,7 @@
   </Identity>
   <Trainer>
     <Entities datatype="tokens">
+      units/{civ}/hero_infantry_rifleman_heavy_1
     </Entities>
   </Trainer>
   <VisualActor>

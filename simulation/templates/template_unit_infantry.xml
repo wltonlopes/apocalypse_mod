@@ -18,6 +18,33 @@
       <RestrictedClasses datatype="tokens">!Domestic</RestrictedClasses>
     </Slaughter>
   </Attack>
+  <Builder>
+    <Rate>1.25</Rate>
+    <Entities datatype="tokens">
+      -structures/{civ}/outpost
+      -structures/{civ}/sentry_tower
+      structures/{civ}/wallset_short
+      -structures/{civ}/house
+      -structures/{civ}/field
+      -structures/{civ}/storehouse
+      -structures/{civ}/farmstead
+      -structures/{civ}/corral
+      -structures/{civ}/dock
+      -structures/{civ}/market
+      -structures/{civ}/barracks
+      -structures/{civ}/range
+      -structures/{civ}/stable
+      -structures/{civ}/forge
+      -structures/{civ}/defense_tower
+      -structures/wallset_palisade
+      -structures/{civ}/wallset_palisade
+      -structures/{civ}/wallset_siege
+      -structures/{civ}/wallset_stone
+      -structures/{civ}/arsenal
+      -structures/{civ}/fortress
+      -structures/{civ}/wonder
+    </Entities>
+  </Builder>
   <Cost>
     <BuildTime>10</BuildTime>
     <Resources>
@@ -110,6 +137,6 @@
     </SoundGroups>
   </Sound>
   <Vision>
-    <Range>80</Range>
+    <Range>60</Range>
   </Vision>
 </Entity>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant file="biped/assault_rifle/relax_2.xml">
+      <mesh>skeletal/new/m_naked.dae</mesh>
+      <props>
+        <prop actor="props/units/terran/spacesuit_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/weapons/rifle_sniper.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/armor/darkwolf/pern_esq.xml" attachpoint="leg_L"/>
+        <prop actor="props/units/armor/darkwolf/pern_dir.xml" attachpoint="leg_R"/>
+        <prop actor="props/units/armor/darkwolf/bra_dir.xml" attachpoint="brace_R"/>
+        <prop actor="props/units/armor/darkwolf/bra_esq.xml" attachpoint="brace_L"/>
+        <prop actor="props/units/armor/darkwolf/peit.xml" attachpoint="breastplate"/>  
+        <prop actor="props/units/armor/darkwolf/ombroesq.xml" attachpoint="shoulderpad_L"/>   
+        <prop actor="props/units/armor/darkwolf/ombrodir.xml" attachpoint="shoulderpad_R"/>     
+      </props>
+      <textures>
+        <texture file="units/terran/spacesuit.png" name="baseTex"/>
+        <texture file="units/terran/spec/spacesuit.png" name="specTex"/>
+        <texture file="units/terran/norm/spacesuit.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/assault_rifle/shoot_hunter_1.xml" name="Attack_Ranged"/>
+    <variant file="biped/sharpshooter/ready.xml" name="ready"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -9,6 +9,6 @@
     <List datatype="tokens">Infantry Healer Inventor</List>
   </GarrisonHolder>
   <VisualActor>
-    <Actor>structures/syracusans/blacksmith.xml</Actor>
+    <Actor>structures/forge/blacksmith.xml</Actor>
   </VisualActor>
 </Entity>

@@ -12,7 +12,7 @@
     <Static width="17.5" depth="27"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/syracusans/temple.xml</Actor>
+    <Actor>structures/survivors/hospital_tent.xml</Actor>
     <FoundationActor>props/special/eyecandy/greek_temple_unfinished.xml</FoundationActor>
   </VisualActor>
 </Entity>

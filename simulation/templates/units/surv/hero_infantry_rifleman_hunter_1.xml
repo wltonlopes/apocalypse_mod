@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_crossbowman">
+  <Attack>
+    <Ranged>
+      <AttackName>Riflerhunter</AttackName>
+      <Damage>
+        <Pierce>148.0</Pierce>
+      </Damage>
+      <MaxRange>100</MaxRange>
+      <PrepareTime>9300</PrepareTime>
+      <RepeatTime>5000</RepeatTime>
+      <Projectile>
+        <Speed>600</Speed>
+        <Spread>2.5</Spread>
+        <Gravity>10</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="3"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Ranged>
+  </Attack>
+  <Capturable>
+    <CapturePoints>25</CapturePoints>
+    <RegenRate>0</RegenRate>
+    <GarrisonRegenRate>0</GarrisonRegenRate>
+  </Capturable>
+    <Cost>
+    <BuildTime>21</BuildTime>
+    <Resources>
+      <food>50</food>
+      <wood>50</wood>
+      <stone>0</stone>
+      <metal>40</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>HUN</Civ>
+    <SelectionGroupName>units/humans/rilfeman</SelectionGroupName>
+    <VisibleClasses datatype="tokens">rifleman</VisibleClasses>
+    <GenericName>Space Wolf spiner</GenericName>
+    <SpecificName>Space Wolf spiner</SpecificName>
+    <Icon>units/maya_blowgunner.png</Icon>
+     <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+    <Sound>
+    <SoundGroups>
+    <attack_ranged>attack/weapon/rifle_attack.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+   <UnitMotion>
+    <WalkSpeed>10.0</WalkSpeed>
+    <RunMultiplier>1.5</RunMultiplier>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/HUN/infantry_human_rifleman_hunter_{phenotype}.xml</Actor>
+  </VisualActor>
+</Entity>
